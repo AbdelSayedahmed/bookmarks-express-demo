@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to Bookmarks App");
 });
 
-// /colors routes
+// /bookmarks routes
 const bookmarksController = require("./controllers/bookmarksController.js");
 app.use("/bookmarks", bookmarksController);
 
